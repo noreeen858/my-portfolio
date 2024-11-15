@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    body {
+        color:antiquewhite;
+        background-color:brown;
+
+    }
+
+}
+@layer Components{
+    .manuLink {
+        @apply cursor-pointer hover:text-[black]
+    }
+}
